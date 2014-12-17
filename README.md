@@ -10,7 +10,7 @@ lib - required libs
 
 README.md - readme file
 
-testFile - test data
+testFile* - test files
 
 # Usage
 
@@ -30,7 +30,7 @@ You can execute like:
 
 	java -jar tail.jar testFile
 
-	With -f option, any appended data will be printed out to console.
+With -f option, any appended data will be printed out to console.
 
 You can open a text file editor like Notepad++ to add some lines to
 the file and watch the changes in console.
