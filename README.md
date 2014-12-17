@@ -49,7 +49,8 @@ You will get data from line 10 of the file and continue to monitor changes.
 
 Import (or copy) all the source code into an Eclipse project and run from Cmd.java, 
 before configuring the *Program arguments* in Run Configuration like "-n 10 -f testFile". 
-Make sure you have a "testFile" located in you project folder.
+Make sure you add *lib/commons-cli-1.2.jar* in your build path and you have a 
+"testFile" located in you project folder.
 
 # Design consideration
 
