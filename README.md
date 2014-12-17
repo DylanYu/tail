@@ -1,3 +1,5 @@
+Please read this document at https://github.com/DylanYu/tail/blob/master/README.md
+
 # File orgnization
 
 src - source code
