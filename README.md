@@ -2,11 +2,11 @@ Please read this document at https://github.com/DylanYu/tail/blob/master/README.
 
 # File orgnization
 
-src - source code
+src/ - source code
 
 tail.jar - executable file
 
-lib - required libs
+lib/ - required libs
 
 README.md - readme file
 
@@ -68,7 +68,7 @@ But when N is large we cannot store all the data we read, so when we just seek b
 right start position and not store anything, then start from the start position we read forward 
 again to tail and print anything we meet. This just doubles the running time, which is acceptable.
 
-# Implementation detail
+# Implementation details
 
 ## Overall
 
